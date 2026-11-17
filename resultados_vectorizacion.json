@@ -1,0 +1,70 @@
+{
+  "dataset": "Restaurant_Reviews.tsv",
+  "train_size": 800,
+  "test_size": 200,
+  "selected_vectorizer": "TF-IDF (TfidfVectorizer)",
+  "models": {
+    "Bag-of-Words (CountVectorizer)": {
+      "accuracy": 0.795,
+      "f1_macro": 0.7949538646195394,
+      "classification_report": {
+        "0": {
+          "precision": 0.8041237113402062,
+          "recall": 0.78,
+          "f1-score": 0.7918781725888325,
+          "support": 100.0
+        },
+        "1": {
+          "precision": 0.7864077669902912,
+          "recall": 0.81,
+          "f1-score": 0.7980295566502463,
+          "support": 100.0
+        },
+        "accuracy": 0.795,
+        "macro avg": {
+          "precision": 0.7952657391652487,
+          "recall": 0.795,
+          "f1-score": 0.7949538646195394,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.7952657391652487,
+          "recall": 0.795,
+          "f1-score": 0.7949538646195394,
+          "support": 200.0
+        }
+      }
+    },
+    "TF-IDF (TfidfVectorizer)": {
+      "accuracy": 0.82,
+      "f1_macro": 0.81998199819982,
+      "classification_report": {
+        "0": {
+          "precision": 0.826530612244898,
+          "recall": 0.81,
+          "f1-score": 0.8181818181818182,
+          "support": 100.0
+        },
+        "1": {
+          "precision": 0.8137254901960784,
+          "recall": 0.83,
+          "f1-score": 0.8217821782178217,
+          "support": 100.0
+        },
+        "accuracy": 0.82,
+        "macro avg": {
+          "precision": 0.8201280512204883,
+          "recall": 0.8200000000000001,
+          "f1-score": 0.81998199819982,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.8201280512204883,
+          "recall": 0.82,
+          "f1-score": 0.8199819981998201,
+          "support": 200.0
+        }
+      }
+    }
+  }
+}
